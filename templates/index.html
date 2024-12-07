@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>m3u8 to MP4 Converter</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>m3u8 to MP4 Converter</h1>
+        <form method="POST">
+            <div class="input_form">
+                <label for="url">URL: </label>
+                <input type="text" id="url" name="url" placeholder="Enter URL" required>
+            </div>
+            <div class="input_form">
+                <label for="output_file_name">Output File Name: </label>
+                <div class="output_form">
+                    <input type="text" id="output_file_name" name="output_file_name" placeholder="Enter file name" required>
+                    <span>.mp4</span>
+                </div>
+            </div>
+            <button type="submit">Convert</button>
+        </form>
+    </div>
+</body>
+</html>
